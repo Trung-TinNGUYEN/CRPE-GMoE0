@@ -73,7 +73,7 @@ def plot_model(K, model, n0=0):
     else:
         label = "$\\widetilde{\mathcal{D}}(\widehat G_n, G_0)$"
 
-    plt.errorbar(np.log(ns[n0:]), Y[n0:].reshape([-1]), yerr=yerr[n0:], color='blue', linestyle = '-', lw=lw, elinewidth=elw, label=label)
+    plt.errorbar(np.log(ns[n0:]), Y[n0:].reshape([-1]), yerr=yerr[n0:], color='orange', linestyle = '-', lw=lw, elinewidth=elw, label=label)
     # plt.errorbar(np.log(ns[n0:]), Y[n0:], label=label)
     # plt.grid(True, alpha=.5)
 
